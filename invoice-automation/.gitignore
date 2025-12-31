@@ -1,0 +1,44 @@
+# Codex GitHub hygiene
+.DS_Store
+Thumbs.db
+*.log
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+.npm/
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+coverage/
+dist/
+build/
+.next/
+out/
+.expo/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Rust
+/target
+
+# Local DBs
+*.sqlite
+*.db
+
+# Invoice automation outputs
+output/
+logs/
